@@ -25,6 +25,6 @@ let g:auto_write = 1
 ##License
 Distributed under the MIT License (see LICENSE.txt).
 
-Copyright (c) 2013 Alexey Chernenkov
+Copyright (c) 2013 syui
 
 
