@@ -22,6 +22,13 @@ In order to enable the postscript to `~/.vimrc` the next.
 let g:auto_write = 1
 ```
 
+##Other
+
+(See `:help hidden`
+
+`:set hidden`
+
+
 ##License
 Distributed under the MIT License (see LICENSE.txt).
 
