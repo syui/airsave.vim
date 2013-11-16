@@ -32,7 +32,7 @@ The key to disable.
 `<Leader>`+`ss`
 
 ##Other
-###verson
+###version
 vim --version 7.3.867↑
 
 
