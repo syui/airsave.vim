@@ -14,6 +14,26 @@ Run the following command.
 
 `:so $MYVIMRC | BundleInstall`
 
+The key to enable.
+
+`<Leader>`+`s`
+
+The key to disable.
+
+`<Leader>`+`ss`
+
+##Other
+###help
+(See `:help hidden`
+
+`:set hidden`
+
+###no function
+
+`~/.vim/bundle/wauto.vim/plugin/wauto.vim`
+
+Delete function.
+
 Auto Save is disabled by default.
 
 In order to enable the postscript to `~/.vimrc` the next.
@@ -22,22 +42,8 @@ In order to enable the postscript to `~/.vimrc` the next.
 let g:auto_write = 1
 ```
 
-
-The key to disable.
-
-`<Leader>`+`s`
-
-
-##Other
-
-(See `:help hidden`
-
-`:set hidden`
-
-
 ##License
 Distributed under the MIT License (see LICENSE.txt).
 
 Copyright (c) 2013 syui
-
 
