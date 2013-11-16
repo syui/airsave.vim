@@ -32,6 +32,10 @@ The key to disable.
 `<Leader>`+`ss`
 
 ##Other
+###verson
+vim --version 7.3.867↑
+
+
 ###help
 (See `:help hidden`
 
