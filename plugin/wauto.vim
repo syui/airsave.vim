@@ -21,5 +21,7 @@ command! -nargs=0 AutoWriteStart call <SID>auto_write_start()
 command! -nargs=0 AutoWriteStop autocmd! vimrc-awrite
 
 " nnoremap <silent> <Leader>s :set ei=TextChanged<CR>
-nnoremap <buffer> <Leader>s :AutoWriteStart<CR>
-nnoremap <buffer> <Leader>ss :AutoWriteStop<CR>
+nnoremap <Plug>(AutoWriteStart) :AutoWriteStart<CR>
+nnoremap <Plug>(AutoWriteStop)  :AutoWriteStop<CR>
+
+

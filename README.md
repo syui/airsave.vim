@@ -14,6 +14,15 @@ Run the following command.
 
 `:so $MYVIMRC | BundleInstall`
 
+##Setting
+
+`~/.vimrc`
+
+```
+nmap <Leader>s  <Plug>(AutoWriteStart)
+nmap <Leader>ss <Plug>(AutoWriteStop)
+```
+
 The key to enable.
 
 `<Leader>`+`s`
