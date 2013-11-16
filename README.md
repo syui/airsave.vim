@@ -22,6 +22,12 @@ In order to enable the postscript to `~/.vimrc` the next.
 let g:auto_write = 1
 ```
 
+
+The key to disable.
+
+`<Leader>`+`s`
+
+
 ##Other
 
 (See `:help hidden`
