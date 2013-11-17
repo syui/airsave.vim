@@ -36,25 +36,6 @@ The key to disable.
 vim --version 7.3.867↑
 
 
-###help
-(See `:help hidden`
-
-`:set hidden`
-
-###no function
-
-`~/.vim/bundle/wauto.vim/plugin/wauto.vim`
-
-Delete function.
-
-Auto Save is disabled by default.
-
-In order to enable the postscript to `~/.vimrc` the next.
-
-```
-let g:auto_write = 1
-```
-
 ##License
 Distributed under the MIT License (see LICENSE.txt).
 
