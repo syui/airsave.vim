@@ -9,12 +9,10 @@ if !exists("g:auto_write")
 endif
 
 function! s:auto_write_start()
-" if g:auto_write >= 1
 augroup vimrc-awrite
   autocmd!
   autocmd TextChanged * w
 augroup END
-" endif
 endfunction
 
 command! -nargs=0 AutoWriteStart call <SID>auto_write_start()
@@ -24,4 +22,6 @@ command! -nargs=0 AutoWriteStop autocmd! vimrc-awrite
 nnoremap <Plug>(AutoWriteStart) :AutoWriteStart<CR>
 nnoremap <Plug>(AutoWriteStop)  :AutoWriteStop<CR>
 
-
+if g:auto_write >= 1
+  call <SID>auto_write_start()
+endif
