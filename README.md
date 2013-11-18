@@ -35,6 +35,16 @@ The key to disable.
 ###version
 vim --version 7.3.867↑
 
+###mode
+
+Effective at startup.
+
+`~/.vimrc`
+
+```
+let g:auto_write = 1
+```
+
 
 ##License
 Distributed under the MIT License (see LICENSE.txt).
