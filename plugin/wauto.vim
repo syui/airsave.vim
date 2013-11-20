@@ -9,10 +9,10 @@ if !exists("g:auto_write")
 endif
 
 function! s:auto_write_start()
-augroup vimrc-awrite
-  autocmd!
-  autocmd TextChanged * w
-augroup END
+  augroup vimrc-awrite
+    autocmd!
+    autocmd TextChanged * silent! w
+  augroup END
 endfunction
 
 command! -nargs=0 AutoWriteStart call <SID>auto_write_start()
