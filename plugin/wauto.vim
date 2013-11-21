@@ -1,9 +1,9 @@
 "======================================
 "    Plugin Name:  wauto.vim
-"        Version:  0.0.3
-"  Last Modified:  17.11.2013
+"        Version:  0.0.4
+"  Last Modified:  21.11.2013
+"   Pull Request:  soramugi
 "======================================
-
 if !exists("g:auto_write")
   let g:auto_write = 0
 endif
