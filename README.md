@@ -35,6 +35,10 @@ The key to disable.
 ###version
 vim --version 7.3.867↑
 
+vim --version 7.3.867↓
+
+`CursorHold,InsertLeave`
+
 ###mode
 
 Effective at startup.
