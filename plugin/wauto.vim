@@ -11,7 +11,13 @@ endif
 function! s:auto_write_start()
   augroup vimrc-awrite
     autocmd!
-    autocmd TextChanged * silent! w
+    try
+      " Vim Version 7.3.867 Any more
+      autocmd TextChanged * silent! w
+    catch
+      " Vim Version 7.3.867 Under more
+      autocmd CursorHold,InsertLeave * silent! w
+    endtry
   augroup END
 endfunction
 
